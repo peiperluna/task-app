@@ -4,7 +4,7 @@ import TaskForm from "./components/TaskForm";
 import todoIcon from "./assets/direct-hit.png";
 import doingIcon from "./assets/glowing-star.png";
 import doneIcon from "./assets/check-mark-button.png";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const saveTasks = localStorage.getItem("tasks");
 //처음 앱 시작시 할일들을 로컬스토리지에서 가져옴
